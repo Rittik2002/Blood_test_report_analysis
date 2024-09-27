@@ -68,8 +68,8 @@ The system will analyze the blood test, find relevant health articles, and provi
     - The advisor uses the articles to generate health recommendations.
 
 ## Demo
-<img src="Demo_images/1.jpg" alt="Demo" width="500" height="500" />
-<img src="Demo_images/2.jpg" alt="Demo" width="500" height="500" />
-<img src="Demo_images/3.jpg" alt="Demo" width="500" height="500" />
-<img src="Demo_images/4.jpg" alt="Demo" width="500" height="500" />
-<img src="Demo_images/5.jpg" alt="Demo" width="500" height="500" />
+<img src="Demo_images/1.jpg" alt="Demo" width="700" height="500" />
+<img src="Demo_images/2.jpg" alt="Demo" width="700" height="500" />
+<img src="Demo_images/3.jpg" alt="Demo" width="700" height="500" />
+<img src="Demo_images/4.jpg" alt="Demo" width="700" height="500" />
+<img src="Demo_images/5.jpg" alt="Demo" width="700" height="500" />
