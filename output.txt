@@ -1,0 +1,149 @@
+PS D:\crewAI> python -u "d:\crewAI\input.py"
+Please provide the path to your PDF report: D:\crewAI\blood_test.pdf
+
+
+> Entering new CrewAgentExecutor chain...
+Thought: I now can give a great answer. 
+
+Final Answer: 
+## Blood Test Report Analysis:
+
+**Patient Information:**
+
+* **Age:** 30 Years
+* **Gender:** Male
+* **Lab No.:** U439854467
+* **Collection Date:** 14/5/2023
+* **Collection Time:** 11:03:00 AM
+* **Processed at:** LPL-ROHINI (NATIONAL REFERENCE LAB)
+* **Report Status:** Final
+
+**Complete Blood Count (CBC) Results:**
+
+* **Hemoglobin:** 15.00 g/dL (Reference Range: 13.00 - 17.00 g/dL) - **Within Normal Limits**
+* **Packed Cell Volume (PCV):** 45.00 % (Reference Range: 40.00 - 50.00 %) - **Within Normal Limits**
+* **RBC Count:** 4.50 mill/mm3 (Reference Range: 4.50 - 5.50 mill/mm3) - **Within Normal Limits**
+* **MCV:** 90.00 fL (Reference Range: 83.00 - 101.00 fL) - **Within Normal Limits**
+* **MCH:** 32.00 pg (Reference Range: 27.00 - 32.00 pg) - **Within Normal Limits**
+* **MCHC:** 33.00 g/dL (Reference Range: 31.50 - 34.50 g/dL) - **Within Normal Limits**
+* **Red Cell Distribution Width (RDW):** 14.00 % (Reference Range: 11.60 - 14.00 %) - **Within Normal Limits**
+* **Total Leukocyte Count (TLC):** 8.00 thou/mm3 (Reference Range: 4.00 - 10.00 thou/mm3) - **Within Normal Limits**
+
+**Differential Leucocyte Count (DLC) Results:**
+
+* **Segmented Neutrophils:** 60.00 % (Reference Range: 40.00 - 80.00 %) - **Within Normal Limits**
+* **Lymphocytes:** 30.00 % (Reference Range: 20.00 - 40.00 %) - **Within Normal Limits**
+* **Monocytes:** 5.00 % (Reference Range: 2.00 - 10.00 %) - **Within Normal Limits**
+* **Eosinophils:** 5.00 % (Reference Range: 1.00 - 6.00 %) - **Within Normal Limits**
+* **Basophils:** 0.00 % (Reference Range: <2.00 %) - **Within Normal Limits**
+
+**Absolute Leucocyte Count Results:**
+
+* **Neutrophils:** 4.80 thou/mm3 (Reference Range: 2.00 - 7.00 thou/mm3) - **Within Normal Limits**
+* **Lymphocytes:** 2.40 thou/mm3 (Reference Range: 1.00 - 3.00 thou/mm3) - **Within Normal Limits**
+* **Monocytes:** 0.40 thou/mm3 (Reference Range: 0.20 - 1.00 thou/mm3) - **Within Normal Limits**
+* **Eosinophils:** 0.40 thou/mm3 (Reference Range: 0.02 - 0.50 thou/mm3) - **Within Normal Limits**
+* **Basophils:** 0.00 thou/mm3 (Reference Range: 0.02 - 0.10 thou/mm3) - **Within Normal Limits**
+
+**Platelet Count Results:**
+
+* **Platelet Count:** 200 thou/mm3 (Reference Range: 150.00 - 410.00 thou/mm3) - **Within Normal Limits**
+* **Mean Platelet Volume:** 10.0 fL (Reference Range: 6.5 - 12.0 fL) - **Within Normal Limits**
+
+**Overall Interpretation:**
+
+Based on the blood test results, all parameters are within their respective normal ranges. This suggests that the patient's blood counts are currently healthy and there are no significant abnormalities detected. 
+
+
+> Finished chain.
+
+
+> Entering new CrewAgentExecutor chain...
+Thought: I need to find articles related to the blood test results, which are all within normal limits. I can search for articles about general blood test interpretation and healthy blood counts.
+
+Action: Search the internet
+Action Input: { "search_query": "interpreting blood test results normal" } 
+
+
+Search results: Title: How to Read Your Blood Test Results | Ada Health
+Link: https://ada.com/blood-test-results/
+Snippet: Levels outside of the normal range can indicate conditions such as anemia, malnutrition and liver disease.
+---
+Title: How to Understand Your Lab Results: MedlinePlus Medical Test
+Link: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/
+Snippet: Negative or normal. This means "No, the test didn't find what it was looking for." · Positive or abnormal. This means, "Yes, the test found what ...
+---
+Title: How to Read Common Blood Test Results: Your GoodRx Guide
+Link: https://www.goodrx.com/health-topic/diagnostics/blood-test-guide
+Snippet: We're here to walk you through the most common lab tests and what they mean. We'll also explain which values are considered normal.
+---
+Title: Lab Values, Normal Adult - Medscape Reference
+Link: https://emedicine.medscape.com/article/2172316-overview
+Snippet: Hemoglobin: Female: 12–16 g/dL; male: 14–18 g/dL. Hematocrit Female: 37%–47%; male: 42%–50%.
+---
+Title: Understanding Your Lab Test Results | American Cancer Society
+Link: https://www.cancer.org/cancer/diagnosis-staging/tests/understanding-your-lab-test-results.html
+Snippet: Common terms and normal values on a CBC report ; WBC (white blood cells), 6.2 x 1000/mm · 5–10 ; RBC (red blood cells), 4.4 x 1,000,000/mm · 4.2–6.1 ...
+---
+Title: What do your blood test results mean? A toxicologist explains the ...
+Link: https://theconversation.com/what-do-your-blood-test-results-mean-a-toxicologist-explains-the-basics-of-how-to-interpret-them-216341
+Snippet: Low values of red blood cell count, or RBC, hemoglobin, or Hb, and hematocrit, or HCT, would indicate that the patient is suffering from anemia.
+---
+Title: Understanding Different Blood Test Lab Results - Unlocking Insights
+Link: https://www.insidetracker.com/a/articles/understanding-your-blood-test-lab-results
+Snippet: Normal levels are generally 6–20 mg/dL, which means irregularities signal dehydration or urinary tract obstruction.
+---
+Title: Reference Ranges and What They Mean - Testing.com
+Link: https://www.testing.com/articles/laboratory-test-reference-ranges/
+Snippet: A reference range is a set of values with an upper and lower limit of a lab test. Reference ranges help to interpret your results.
+---
+Title: How to interpret your lab test results | Parkview Health
+Link: https://www.parkview.com/blog/how-to-interpret-your-lab-test-results
+Snippet: If your numbers fall within the range, your results are often considered normal. If they fall above or below the range, they are often ...
+---
+Title: What do your lab test results mean? | UCI Health | Orange County, CA
+Link: https://www.ucihealth.org/blog/2017/06/lab-tests
+Snippet: Lower-than-normal counts may indicate anemia. Abnormally high results could point to a condition such as polycythemia vera or heart disease.
+---
+
+
+Thought: I now know the final answer
+Final Answer: 
+* **How to Read Your Blood Test Results | Ada Health:**  https://ada.com/blood-test-results/  - This article provides a general overview of blood test results and how to interpret them. It also discusses the potential implications of abnormal results.
+* **How to Understand Your Lab Results: MedlinePlus Medical Test:** https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/ - This article from MedlinePlus explains the basics of understanding lab test results, including what "normal" and "abnormal" mean.
+* **How to Read Common Blood Test Results: Your GoodRx Guide:** https://www.goodrx.com/health-topic/diagnostics/blood-test-guide - This article provides a guide to understanding common blood test results, including normal ranges and what they mean.
+* **Lab Values, Normal Adult - Medscape Reference:** https://emedicine.medscape.com/article/2172316-overview - This article from Medscape Reference provides a comprehensive overview of normal lab values for adults, including blood test results.
+* **Understanding Your Lab Test Results | American Cancer Society:** https://www.cancer.org/cancer/diagnosis-staging/tests/understanding-your-lab-test-results.html - This article from the American Cancer Society explains how to understand lab test results, including common terms and normal values.
+* **What do your blood test results mean? A toxicologist explains the ...:** https://theconversation.com/what-do-your-blood-test-results-mean-a-toxicologist-explains-the-basics-of-how-to-interpret-them-216341 - This article provides a basic explanation of how to interpret blood test results, focusing on the significance of different values.
+* **Understanding Different Blood Test Lab Results - Unlocking Insights:** https://www.insidetracker.com/a/articles/understanding-your-blood-test-lab-results - This article provides insights into understanding different blood test lab results, including normal ranges and potential implications.
+* **Reference Ranges and What They Mean - Testing.com:** https://www.testing.com/articles/laboratory-test-reference-ranges/ - This article explains the concept of reference ranges and how they are used to interpret lab test results.
+* **How to interpret your lab test results | Parkview Health:** https://www.parkview.com/blog/how-to-interpret-your-lab-test-results - This article provides a general overview of how to interpret lab test results, including what to do if your results are abnormal.  
+* **What do your lab test results mean? | UCI Health | Orange County, CA:** https://www.ucihealth.org/blog/2017/06/lab-tests - This article from UCI Health provides a basic explanation of how to interpret lab test results, including the significance of different values. 
+
+
+> Finished chain.
+
+
+> Entering new CrewAgentExecutor chain...
+Thought: I now can give a great answer.
+
+Final Answer: 
+
+The provided articles offer valuable information on understanding blood test results, but they don't provide specific health recommendations based on those results. To give you actionable advice, I need your blood test results. 
+
+Once you provide your blood test results, I can use the information from these articles and other reputable sources to offer personalized health recommendations. These recommendations may include:
+
+* **Lifestyle modifications:**  Based on your results, I may suggest changes to your diet, exercise routine, or sleep habits.        
+* **Further testing:**  Depending on your results, I may recommend additional tests to investigate potential health concerns.        
+* **Medical consultation:**  If your results indicate a potential health issue, I may recommend consulting a doctor or other healthcare professional. 
+
+Please share your blood test results, and I will provide you with tailored health recommendations. 
+
+
+> Finished chain.
+The provided articles offer valuable information on understanding blood test results, but they don't provide specific health recommendations based on those results. To give you actionable advice, I need your blood test results.
+
+*  If your results indicate a potential health issue, I may recommend consulting a doctor or other healthcare professional.
+
+Please share your blood test results, and I will provide you with tailored health recommendations.
+PS D:\crewAI>
