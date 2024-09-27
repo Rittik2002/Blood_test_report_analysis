@@ -36,15 +36,21 @@ The system performs the following tasks:
  cd <repository-folder>
 
 - Step 2: Install Dependencies
- pip install -r requirements.txt
+```
+    pip install -r requirements.txt
+```
 
 - Step 3: Set Up API Keys
 Create a .env file in the project root and add your API keys:
-GOOGLE_API_KEY=<your-google-api-key>
-SERPER_API_KEY=<your-serper-api-key>
+```
+    GOOGLE_API_KEY=<your-google-api-key>
+    SERPER_API_KEY=<your-serper-api-key>
+```
 
 - Step 4: Run the Script
- python input.py
+```
+    python input.py
+```
 
 - Step 5: Upload a Blood Test Report
 When prompted, provide the path to a PDF report (up to two pages will be extracted and processed).
