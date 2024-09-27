@@ -32,8 +32,10 @@ The system performs the following tasks:
 ## Steps to Run the Code
 
 - Step 1: Clone the Repository
- git clone <repository-url>
- cd <repository-folder>
+```
+    git clone <repository-url>
+    cd <repository-folder>
+```
 
 - Step 2: Install Dependencies
 ```
