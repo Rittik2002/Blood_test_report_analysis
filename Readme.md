@@ -34,7 +34,7 @@ The system performs the following tasks:
 - Step 1: Clone the Repository
 ```
     git clone <https://github.com/Rittik2002/Blood_test_report_analysis_crewAI>
-    cd <repository-folder>
+    cd <Blood_test_report_analysis_crewAI>
 ```
 
 - Step 2: Install Dependencies
