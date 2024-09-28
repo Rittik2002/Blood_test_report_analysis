@@ -33,7 +33,7 @@ The system performs the following tasks:
 
 - Step 1: Clone the Repository
 ```
-    git clone <repository-url>
+    git clone <https://github.com/Rittik2002/Blood_test_report_analysis_crewAI>
     cd <repository-folder>
 ```
 
@@ -74,10 +74,3 @@ The system will analyze the blood test, find relevant health articles, and provi
     - The analyst processes the blood test report.
     - The researcher searches for articles based on the analyst's findings.
     - The advisor uses the articles to generate health recommendations.
-
-## Demo
-<img src="Demo_images/1.jpg" alt="Demo" width="700" height="500" />
-<img src="Demo_images/2.jpg" alt="Demo" width="700" height="500" />
-<img src="Demo_images/3.jpg" alt="Demo" width="700" height="500" />
-<img src="Demo_images/4.jpg" alt="Demo" width="700" height="500" />
-<img src="Demo_images/5.jpg" alt="Demo" width="700" height="500" />
